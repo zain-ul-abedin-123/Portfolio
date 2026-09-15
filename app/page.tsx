@@ -409,7 +409,7 @@ export default function PremiumPortfolio() {
           </nav>
 
           <div className="pointer-events-auto flex items-center gap-6">
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hidden md:block border border-white/30 px-4 py-2 hover:bg-white hover:text-black transition-colors rounded-sm">Download CV</a>
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="hidden md:block border border-white/30 px-4 py-2 hover:bg-white hover:text-black transition-colors rounded-sm">Download CV</a>
             <a href="#contact-section" onClick={(e) => handleScroll(e, "contact-section")} className="link-underline hidden md:block">Get in Touch</a>
 
             <button
@@ -441,7 +441,7 @@ export default function PremiumPortfolio() {
                 <a href="#skills" onClick={(e) => handleScroll(e, "skills")} className="font-cormorant text-4xl tracking-tight">Skills</a>
                 <a href="#projects" onClick={(e) => handleScroll(e, "projects")} className="font-cormorant text-4xl tracking-tight">Works</a>
                 <a href="#contact-section" onClick={(e) => handleScroll(e, "contact-section")} className="font-cormorant text-4xl tracking-tight">Contact</a>
-                <a href="/resume.pdf" target="_blank" className="text-[10px] uppercase tracking-widest border border-white/30 px-6 py-3 mt-4">Download Resume</a>
+                <a href="/Resume.pdf" target="_blank" className="text-[10px] uppercase tracking-widest border border-white/30 px-6 py-3 mt-4">Download Resume</a>
               </nav>
             </motion.div>
           )}
