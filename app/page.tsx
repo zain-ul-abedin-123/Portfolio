@@ -3,6 +3,7 @@
 import { useEffect, useState, type FormEvent, type MouseEvent, type ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
+import { Analytics } from "@vercel/analytics/next"
 
 // --- PROJECT DATA & LINK CONFIGURATION ---
 type ProjectKey =

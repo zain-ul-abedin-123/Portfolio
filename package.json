@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.47",
+    "@vercel/analytics": "^2.0.1",
     "framer-motion": "^13.2.0",
     "lucide-react": "^1.44.0",
     "next": "16.3.4",
