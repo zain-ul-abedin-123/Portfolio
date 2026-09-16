@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ 
   subsets: ["latin"], 
@@ -28,7 +29,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${cormorant.variable} font-sans selection:bg-black selection:text-white`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
 }
+
