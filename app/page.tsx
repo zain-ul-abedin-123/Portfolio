@@ -51,7 +51,7 @@ const projects: Record<ProjectKey, ProjectConfig> = {
     impact: "Deployed strict role-based authentication layers and engineered employee attendance tracking to improve internal security and operational visibility."
   },
   tenant: {
-    title: "Tenant Protection Hub", type: "industry", caseStudy: true, liveDemo: null, privateRepo: true,
+    title: "Tenant Protection Hub", type: "industry", caseStudy: true, liveDemo: "https://www.tenantprotectionhub.co.uk", privateRepo: true,
     problem: "Users navigating housing protection services frequently encountered rigid, inaccessible web interfaces that hindered seamless information discovery.",
     solution: "Engineered a dynamic, high-performance single-page application using React, Vite, Tailwind CSS, and Framer Motion.",
     impact: "Delivered an immersive, accessible browsing experience characterized by custom smooth-scroll mechanics and fluid UI/UX state transitions."
@@ -63,7 +63,7 @@ const projects: Record<ProjectKey, ProjectConfig> = {
     impact: "Automated detailed test-result processing with optimized relational database workflows, improving retrieval speed and reporting consistency."
   },
   housing: {
-    title: "Housing Support Network", type: "industry", caseStudy: true, liveDemo: null, privateRepo: true,
+    title: "Housing Support Network", type: "industry", caseStudy: true, liveDemo: "https://housingsupportnetwork.co.uk", privateRepo: true,
     problem: "The housing sector required a streamlined platform for users to access support networks and submit claims efficiently without navigating convoluted legacy systems.",
     solution: "Engineered a robust frontend architecture utilizing React, Next.js, Tailwind CSS, FastAPI, and Supabase.",
     impact: "Delivered a highly responsive portal focused on accessibility, efficient information discovery, and streamlined claim-related workflows."
