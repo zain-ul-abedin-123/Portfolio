@@ -16,8 +16,8 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Muhammad Wajahat Haider | Software Developer",
-  description: "Portfolio of Muhammad Wajahat Haider. Software Developer specializing in full-stack architecture, AI integrations, and cross-platform applications.",
+  title: "Muhammad Zain-ul-Abedin | AI / ML Developer",
+  description: "Portfolio of Muhammad Zain-ul-Abedin, a Computer Science student and AI/ML developer specializing in deep learning, full-stack systems, and smart data-driven applications.",
 };
 
 export default function RootLayout({

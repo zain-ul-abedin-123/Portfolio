@@ -40,87 +40,87 @@ type ProjectConfig = {
 const projects: Record<ProjectKey, ProjectConfig> = {
   oasis: {
     title: "Oasis Thrive Track", type: "industry", caseStudy: true, privateRepo: true,
-    problem: "Oasis School for Autism required a unified digital infrastructure to resolve fragmented administrative workflows and inefficient parent-teacher communication channels.",
-    solution: "Designed and engineered a comprehensive full-stack ecosystem as a culminating academic project. The architecture features a highly responsive React web dashboard for administrators and a fluid Flutter mobile application for parents, supported by a FastAPI backend and Supabase PostgreSQL.",
-    impact: "Centralized the daily digitized diary system and integrated AI-driven report summarization to reduce manual administrative overhead and improve parent-teacher communication."
+    problem: "Oasis School for Autism required a unified digital infrastructure to resolve fragmented administrative workflows and improve communication between parents and teachers.",
+    solution: "Designed and engineered a full-stack project using React, Flutter, FastAPI, and Supabase to support administration, mobile access, and AI-assisted reporting.",
+    impact: "Centralized digital diary workflows and automated report summarization to reduce administrative overhead and improve communication.",
   },
   pkpl: {
     title: "Prime Kingdom CRM", type: "industry", caseStudy: true, privateRepo: true,
-    problem: "Internal operations needed a robust, centralized platform to securely manage complex administrative tasks and track personnel data at scale.",
-    solution: "Architected an enterprise-grade management portal utilizing React and FastAPI to streamline and automate daily business processes.",
-    impact: "Deployed strict role-based authentication layers and engineered employee attendance tracking to improve internal security and operational visibility."
+    problem: "Internal operations needed a secure, centralized system to manage employee data and streamline business workflows.",
+    solution: "Built a role-based enterprise portal with React and FastAPI for operational automation, user access management, and attendance tracking.",
+    impact: "Improved internal visibility, data security, and day-to-day business process efficiency.",
   },
   tenant: {
     title: "Tenant Protection Hub", type: "industry", caseStudy: true, liveDemo: "https://www.tenantprotectionhub.co.uk", privateRepo: true,
-    problem: "Users navigating housing protection services frequently encountered rigid, inaccessible web interfaces that hindered seamless information discovery.",
-    solution: "Engineered a dynamic, high-performance single-page application using React, Vite, Tailwind CSS, and Framer Motion.",
-    impact: "Delivered an immersive, accessible browsing experience characterized by custom smooth-scroll mechanics and fluid UI/UX state transitions."
+    problem: "Users needed a more accessible, user-friendly platform for accessing housing support information without dealing with outdated interfaces.",
+    solution: "Engineered a responsive single-page experience using React, Vite, Tailwind CSS, and Framer Motion.",
+    impact: "Delivered a smoother and more accessible browsing experience with polished interactions and clear information flow.",
   },
   assessment: {
     title: "Assessment Portal", type: "industry", caseStudy: true, privateRepo: true,
-    problem: "Manual evaluation workflows and complex result tabulations were becoming a bottleneck for internal scaling and data accuracy.",
-    solution: "Developed a comprehensive evaluation platform featuring an interactive assessment dashboard, driven by a scalable Python backend.",
-    impact: "Automated detailed test-result processing with optimized relational database workflows, improving retrieval speed and reporting consistency."
+    problem: "Manual evaluation workflows and result processing created bottlenecks for test management and reporting.",
+    solution: "Developed an assessment dashboard and streamlined backend logic for handling evaluations and data processing.",
+    impact: "Improved report consistency and retrieval efficiency through automated processing.",
   },
   housing: {
     title: "Housing Support Network", type: "industry", caseStudy: true, liveDemo: "https://housingsupportnetwork.co.uk", privateRepo: true,
-    problem: "The housing sector required a streamlined platform for users to access support networks and submit claims efficiently without navigating convoluted legacy systems.",
-    solution: "Engineered a robust frontend architecture utilizing React, Next.js, Tailwind CSS, FastAPI, and Supabase.",
-    impact: "Delivered a highly responsive portal focused on accessibility, efficient information discovery, and streamlined claim-related workflows."
+    problem: "The housing sector needed a streamlined platform for users to discover support services and submit claims efficiently.",
+    solution: "Built a responsive web platform using React, Next.js, Tailwind CSS, FastAPI, and Supabase to simplify access to services.",
+    impact: "Created a polished, accessible portal for claim and support workflows in a digital-first housing experience.",
   },
   agriscan: {
-    title: "AgriScan AI", type: "archive", caseStudy: true, github: null,
-    problem: "Farmers need accessible ways to identify plant diseases without relying entirely on manual visual inspection or specialist knowledge.",
-    solution: "Built an AI-powered plant and insect disease recognition system using Python, TensorFlow, Keras, and OpenCV with a computer-vision classification pipeline.",
-    impact: "Demonstrated practical deployment of deep-learning-based image classification through a user-facing agricultural application."
+    title: "AI-Based HAR With Sensors", type: "archive", caseStudy: true, github: null,
+    problem: "Human activity recognition from sensor data requires accurate, real-time classification across multiple motion patterns.",
+    solution: "Developed a real-time HAR system using smartphone sensor data and a Bi-LSTM with Attention model, backed by a Python/FastAPI pipeline.",
+    impact: "Achieved approximately 95% validation accuracy across six activity classes and enabled live data-driven detection and dashboard testing.",
   },
   traffic: {
-    title: "Traffic Sign Predictor", type: "archive", caseStudy: true, github: "https://github.com/wajahat81/traffic",
-    problem: "Manual recognition of road signs from images is unreliable and difficult to scale for automated computer-vision applications.",
-    solution: "Developed a neural-network-based image classification system capable of identifying and classifying traffic signs from image data.",
-    impact: "Demonstrated an end-to-end machine-learning workflow covering image preprocessing, model training, classification, and prediction."
+    title: "AI-Based Crypto Trading Signal Predictor", type: "archive", caseStudy: true, github: null,
+    problem: "Cryptocurrency trading decisions require intelligent analysis of historical market patterns to reduce uncertainty.",
+    solution: "Built a Random Forest-based predictive model to analyze historical data and generate buy/sell signals based on feature optimization.",
+    impact: "Produced a practical machine learning workflow with roughly 60–70% prediction accuracy for trend-based signals.",
   },
   shopping: {
-    title: "Shopping Revenue Predictor", type: "archive", caseStudy: true, github: "https://github.com/wajahat69/shopping",
-    problem: "E-commerce platforms can benefit from predicting whether browsing sessions are likely to result in a purchase.",
-    solution: "Developed a machine-learning classification system using shopping-session features to predict purchasing behavior.",
-    impact: "Converted behavioral browsing data into a predictive model demonstrating a practical application of supervised machine learning."
+    title: "Lexical Analyzer", type: "archive", caseStudy: true, github: null,
+    problem: "Parsing and formatting source code requires structured lexical and syntactic processing for clarity and correctness.",
+    solution: "Created a custom compiler tool for HTML, CSS, and JavaScript using CFG and DFA concepts to implement lexical and syntax analysis.",
+    impact: "Strengthened understanding of compiler design, tokenization, and grammar-driven parsing workflows.",
   },
   hospital: {
-    title: "Hospital Management", type: "archive", caseStudy: true, github: null,
-    problem: "Manual management of hospital records can result in fragmented patient information and inefficient administrative workflows.",
-    solution: "Developed a database management application for handling patient and hospital-related information.",
-    impact: "Centralized core hospital data and demonstrated structured CRUD, database, and application-management concepts."
+    title: "NADRA System Using Hashing and Trees", type: "archive", caseStudy: true, github: null,
+    problem: "Secure identity record systems need efficient search, insertion, and collision handling for large-scale data access.",
+    solution: "Engineered a secure record-management system using advanced data structures to mimic national identity registry operations.",
+    impact: "Demonstrated efficient hashing and tree-based access methods for high-performance registry-style data management.",
   },
   digit: {
-    title: "Digit Recognizer", type: "archive", caseStudy: true, github: null,
-    problem: "Recognizing handwritten numerical characters requires a model capable of learning visual patterns from image data.",
-    solution: "Built a deep-learning classification model designed to identify handwritten numerical digits from image inputs.",
-    impact: "Demonstrated the fundamentals of image classification and neural-network-based pattern recognition."
+    title: "Pharmacy Management System", type: "archive", caseStudy: true, github: null,
+    problem: "Local healthcare systems often rely on disconnected records for patient information, inventory, and transactions.",
+    solution: "Built a web-based platform using HTML, CSS, and MySQL to centralize patient records, inventory management, and transactional logs.",
+    impact: "Digitized key pharmacy operations and improved structural record management with secure database integration.",
   },
   compiler: {
-    title: "HTML Basic Compiler", type: "archive", caseStudy: true, github: null,
-    problem: "Understanding how source code is transformed into structured representations requires practical exposure to lexical and syntactic processing.",
-    solution: "Implemented a foundational compiler capable of parsing and processing basic HTML structures using C++.",
-    impact: "Provided practical experience with lexical analysis, parsing, syntax handling, and compiler-construction concepts."
+    title: "Software Engineering and System Design Portfolio", type: "archive", caseStudy: true, github: null,
+    problem: "Practical software development requires a strong foundation in problem solving, systems design, and real-world implementation.",
+    solution: "Developed and refined multiple academic and hands-on projects covering AI, full-stack development, data structures, and application architecture.",
+    impact: "Built a broad skill set across deep learning, backend APIs, data structures, and database-driven application design.",
   },
   solar: {
-    title: "Solar Tracker", type: "archive", caseStudy: true, github: null,
-    problem: "Fixed-position solar panels cannot continuously maintain an optimal orientation toward the sun.",
-    solution: "Built an Arduino-based tracking system that dynamically adjusts panel positioning according to detected light direction.",
-    impact: "Demonstrated integration of software logic, sensors, embedded hardware, and automated control."
+    title: "AI / ML Capstone Learning", type: "archive", caseStudy: true, github: null,
+    problem: "Applied learning in AI and data science needs strong implementation practice with modern tools and pipelines.",
+    solution: "Used Python, machine learning, and deep learning frameworks to solve real-world problem statements and prototype intelligent systems.",
+    impact: "Expanded practical expertise in model training, feature engineering, predictive analytics, and full-stack delivery.",
   },
   studentDbms: {
-    title: "Student DBMS", type: "archive", caseStudy: true, github: null,
-    problem: "Academic records become difficult to maintain when information is distributed across disconnected manual systems.",
-    solution: "Developed a structured database management application using C++ and MySQL for centralized student information management.",
-    impact: "Demonstrated database design, CRUD operations, structured queries, and application-to-database integration."
+    title: "Data Structures & Secure Systems", type: "archive", caseStudy: true, github: null,
+    problem: "Structured systems require reliable data organization and secure handling of large datasets.",
+    solution: "Worked on projects that required optimized data structures and secure system logic for efficient retrieval and processing.",
+    impact: "Improved understanding of algorithmic thinking, performance optimization, and reliable system design.",
   },
   aiMini: {
     title: "AI Mini-Projects Portfolio", type: "archive", caseStudy: true, github: null,
-    problem: "Understanding AI concepts requires practical implementation across different search, optimization, and probabilistic problems.",
-    solution: "Implemented a collection of AI mini-projects including Minesweeper AI, Tic-Tac-Toe Minimax, PageRank, Nim, and Heredity.",
-    impact: "Built practical understanding of search algorithms, game-playing agents, probability, inference, and machine-learning fundamentals."
+    problem: "Practical AI learning requires working across varied search, optimization, and probabilistic problem areas.",
+    solution: "Developed and explored multiple AI-focused implementations to deepen concept understanding and practical coding skills.",
+    impact: "Strengthened hands-on knowledge of search algorithms, game AI, inference, and machine learning fundamentals.",
   }
 };
 
@@ -129,22 +129,22 @@ const archiveProjects: ProjectKey[] = [
 ];
 
 const archiveTech: Record<ProjectKey, string> = {
-  agriscan: "Python • TensorFlow • OpenCV", traffic: "Python • Neural Networks", shopping: "Python • Scikit-Learn • HTML",
-  hospital: "Full Stack Development", digit: "Python • Deep Learning", compiler: "C++ • Compiler Construction",
-  solar: "C++ • Arduino", studentDbms: "C++ • MySQL", aiMini: "Python",
+  agriscan: "Python • FastAPI • Deep Learning", traffic: "Python • Machine Learning • Random Forest", shopping: "C++ • CFG • DFA",
+  hospital: "C++ • Hashing • Data Structures", digit: "HTML • CSS • MySQL", compiler: "Software Engineering • AI • Full Stack",
+  solar: "Python • Deep Learning • Data Pipelines", studentDbms: "C++ • Data Structures • Secure Systems", aiMini: "Python • AI • Search Algorithms",
   oasis: "", pkpl: "", tenant: "", assessment: "", housing: ""
 };
 
 const archiveDescriptions: Record<ProjectKey, string> = {
-  agriscan: "An AI-driven plant and insect disease classification system designed to identify agricultural health issues using computer vision.",
-  traffic: "A computer-vision model designed to autonomously identify and classify traffic signs from image data.",
-  shopping: "A machine-learning classifier that predicts whether an online shopping customer will complete a purchase based on browsing behavior.",
-  hospital: "A full-stack database management application designed to streamline patient records and hospital administrative workflows.",
-  digit: "A deep neural network designed to identify handwritten numerical digits from image data.",
-  compiler: "A foundational compiler designed to parse, lex, and process basic HTML syntactical structures.",
-  solar: "An automated hardware-integrated solar tracking system engineered to dynamically align with the sun.",
-  studentDbms: "A structured database management platform designed to centralize academic records with controlled access.",
-  aiMini: "A collection of AI implementations including Minesweeper AI, Tic-Tac-Toe Minimax, PageRank, Nim, and Heredity.",
+  agriscan: "A real-time human activity recognition system that uses smartphone sensor data and attention-based deep learning to classify movement patterns.",
+  traffic: "A Random Forest-driven trading signal predictor designed to analyze market history and produce buy/sell recommendations based on pattern evaluation.",
+  shopping: "A lexical analyzer and parser built for HTML, CSS, and JavaScript formatting using CFG and DFA principles.",
+  hospital: "A secure identity-system model utilizing hashing and trees to mirror efficient national registry-style record operations.",
+  digit: "A web-based pharmacy management system for handling patient records, inventory, and transaction data through a structured database design.",
+  compiler: "A project portfolio focused on practical software engineering across AI, full-stack development, and system design.",
+  solar: "Applied AI and ML learning through modern data pipelines, deep learning workflows, and problem-driven implementation practice.",
+  studentDbms: "A secure data structures-focused project exploring optimized record handling and scalable system logic.",
+  aiMini: "A collection of AI exercise implementations focused on search, optimization, and probabilistic reasoning.",
   oasis: "", pkpl: "", tenant: "", assessment: "", housing: ""
 };
 
@@ -198,7 +198,7 @@ function ProjectCardHeader({ number, title, image, tech, dark = false }: { numbe
 
 export default function PremiumPortfolio() {
   const [typedText, setTypedText] = useState("");
-  const fullText = "MUHAMMAD WAJAHAT HAIDER";
+  const fullText = "MUHAMMAD ZAIN-UL-ABEDIN";
 
   const [philosophyText, setPhilosophyText] = useState("");
   const [phraseIndex, setPhraseIndex] = useState(0);
@@ -208,12 +208,12 @@ export default function PremiumPortfolio() {
   const [activeProjectTitle, setActiveProjectTitle] = useState("industry");
 
   const phrases = [
-    " scalable backend infrastructures.",
-    " deep learning models.",
-    " machine learning algorithms.",
-    " robust full-stack web applications.",
-    " seamless mobile applications.",
-    " immersive cross-platform experiences."
+    " intelligent AI systems.",
+    " real-time machine learning pipelines.",
+    " scalable backend architectures.",
+    " data-driven full-stack solutions.",
+    " responsive web experiences.",
+    " practical problem solving."
   ];
 
   useEffect(() => {
@@ -387,7 +387,7 @@ export default function PremiumPortfolio() {
         {/* 1. Premium Navbar - Z-[90] ensures it sits above mobile menu z-[80] */}
         <header className="fixed top-0 left-0 w-full px-6 md:px-8 py-6 z-[90] mix-blend-difference flex justify-between items-center text-[10px] md:text-[11px] uppercase tracking-widest font-medium text-[#F4F0EA] pointer-events-none">
           <div className="pointer-events-auto link-underline cursor-pointer">
-            <a href="#home" onClick={(e) => handleScroll(e, "home")}>Muhammad Wajahat Haider</a>
+            <a href="#home" onClick={(e) => handleScroll(e, "home")}>Muhammad Zain-ul-Abedin</a>
           </div>
 
           <nav className="hidden md:flex gap-10 pointer-events-auto items-center">
@@ -410,7 +410,7 @@ export default function PremiumPortfolio() {
           </nav>
 
           <div className="pointer-events-auto flex items-center gap-6">
-            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="hidden md:block border border-white/30 px-4 py-2 hover:bg-white hover:text-black transition-colors rounded-sm">Download CV</a>
+            <a href="/Muhammad zain ul Abedin.pdf" target="_blank" rel="noopener noreferrer" className="hidden md:block border border-white/30 px-4 py-2 hover:bg-white hover:text-black transition-colors rounded-sm">Download CV</a>
             <a href="#contact-section" onClick={(e) => handleScroll(e, "contact-section")} className="link-underline hidden md:block">Get in Touch</a>
 
             <button
@@ -442,7 +442,7 @@ export default function PremiumPortfolio() {
                 <a href="#skills" onClick={(e) => handleScroll(e, "skills")} className="font-cormorant text-4xl tracking-tight">Skills</a>
                 <a href="#projects" onClick={(e) => handleScroll(e, "projects")} className="font-cormorant text-4xl tracking-tight">Works</a>
                 <a href="#contact-section" onClick={(e) => handleScroll(e, "contact-section")} className="font-cormorant text-4xl tracking-tight">Contact</a>
-                <a href="/Resume.pdf" target="_blank" className="text-[10px] uppercase tracking-widest border border-white/30 px-6 py-3 mt-4">Download Resume</a>
+                <a href="/Muhammad zain ul Abedin.pdf" target="_blank" className="text-[10px] uppercase tracking-widest border border-white/30 px-6 py-3 mt-4">Download Resume</a>
               </nav>
             </motion.div>
           )}
@@ -455,7 +455,7 @@ export default function PremiumPortfolio() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.5, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
             src="/profile-cutout.png"
-            alt="Muhammad Wajahat Haider"
+            alt="Muhammad Zain-ul-Abedin"
             className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[65vh] md:h-[85vh] w-auto object-cover z-10 pointer-events-none grayscale contrast-125 brightness-90"
           />
 
@@ -467,8 +467,8 @@ export default function PremiumPortfolio() {
           </div>
 
           <div className="absolute bottom-8 md:bottom-12 left-6 md:left-12 z-20 text-[#F4F0EA]">
-            <h2 className="text-[9px] md:text-xs uppercase tracking-[0.3em] font-bold mb-1 md:mb-2">Software Developer</h2>
-            <p className="text-[8px] md:text-[10px] font-light tracking-[0.2em] opacity-70">AI Systems & Full-Stack Architecture</p>
+            <h2 className="text-[9px] md:text-xs uppercase tracking-[0.3em] font-bold mb-1 md:mb-2">AI / ML Developer</h2>
+            <p className="text-[8px] md:text-[10px] font-light tracking-[0.2em] opacity-70">Deep Learning • Full-Stack • Data Systems</p>
 
             <div className="flex gap-4 mt-5 md:mt-6 pointer-events-auto">
               <a href="#projects" onClick={(e) => handleScroll(e, "projects")} className="px-5 py-2.5 bg-white text-black text-[9px] md:text-[10px] uppercase tracking-widest font-semibold hover:bg-white/80 transition-colors">View My Work</a>
@@ -496,14 +496,14 @@ export default function PremiumPortfolio() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-xs md:text-sm text-[#121212]/80 leading-relaxed font-light mt-4 md:mt-8 pt-8 md:pt-12 border-t border-black/10">
               <p>
-                I am a Full-Stack Software Developer currently working at Prime Kingdom Pvt Ltd, with previous experience as a Python Full-Stack Developer Intern at NetSol Technologies. My core expertise includes Python, FastAPI, Django, Flutter, React.js, and database management using PostgreSQL, MySQL, and MongoDB.
+                I am Muhammad Zain-ul-Abedin, a Computer Science student at Bahria University Lahore with a focus on AI, machine learning, and full-stack development. My core skills include Python, FastAPI, SQL, JavaScript, TypeScript, React, and data-driven application design.
               </p>
               <div>
                 <p className="mb-8">
-                  Throughout my career, I have developed several full-stack projects, including a specialized school management platform for <b>Oasis School for Autism</b> (Oasis Thrive Track) and an AI-powered agricultural mobile application (AgriScan). Additionally, I have trained deep learning and computer vision classifiers using TensorFlow, Keras, and OpenCV.
+                  I have hands-on experience building AI-powered systems, working with sensor-based human activity recognition, crypto trading signal prediction, and secure data structure projects. I also completed a full-stack development internship where I contributed to frontend, backend logic, APIs, databases, and responsive UIs.
                 </p>
-                <h3 className="text-[10px] uppercase tracking-widest font-semibold text-black/40 mb-3">Currently Working On</h3>
-                <p className="italic">Improving scalable backend architectures, learning advanced system design, and exploring deeper AI integrations.</p>
+                <h3 className="text-[10px] uppercase tracking-widest font-semibold text-black/40 mb-3">Currently Focused On</h3>
+                <p className="italic">Developing intelligent systems, improving backend architecture, and expanding practical deep learning and data engineering skills.</p>
               </div>
             </div>
           </div>
@@ -517,19 +517,19 @@ export default function PremiumPortfolio() {
 
               <div className="mb-10 md:mb-12 border-l border-black/20 pl-6 relative group cursor-default hover:border-black transition-colors duration-500">
                 <div className="absolute w-2 h-2 bg-[#121212] rounded-full -left-[4.5px] top-1.5 group-hover:scale-150 transition-transform duration-500" />
-                <h3 className="text-xl md:text-2xl font-cormorant font-semibold text-[#121212]">Software Developer</h3>
-                <p className="text-[10px] uppercase tracking-widest text-black/50 mt-1 mb-4">Prime Kingdom Pvt Ltd • Present</p>
+                <h3 className="text-xl md:text-2xl font-cormorant font-semibold text-[#121212]">Full Stack Developer Intern</h3>
+                <p className="text-[10px] uppercase tracking-widest text-black/50 mt-1 mb-4">CINQDEV • Jul 2025 – Aug 2025</p>
                 <p className="text-sm text-[#121212]/80 leading-relaxed font-light">
-                  Architecting full-stack solutions, optimizing database queries, and integrating third-party APIs for scalable enterprise applications.
+                  Contributed to full-stack development tasks, building responsive interfaces and backend logic including APIs, databases, and performance debugging.
                 </p>
               </div>
 
               <div className="border-l border-black/20 pl-6 relative group cursor-default hover:border-black transition-colors duration-500">
                 <div className="absolute w-2 h-2 bg-transparent border border-[#121212] rounded-full -left-[4.5px] top-1.5 group-hover:bg-[#121212] transition-colors duration-500" />
-                <h3 className="text-xl md:text-2xl font-cormorant font-semibold text-[#121212]">Python Full-Stack Developer Intern</h3>
-                <p className="text-[10px] uppercase tracking-widest text-black/50 mt-1 mb-4">NetSol Technologies • Jun – Aug 2025</p>
+                <h3 className="text-xl md:text-2xl font-cormorant font-semibold text-[#121212]">Computer Science Student</h3>
+                <p className="text-[10px] uppercase tracking-widest text-black/50 mt-1 mb-4">Bahria University Lahore • Sep 2022 – Present</p>
                 <p className="text-sm text-[#121212]/80 leading-relaxed font-light">
-                  Developed backend architectures and automated processes within the Unity team, focusing on Python frameworks and system integration.
+                  Pursuing a BS in Computer Science with a focus on software engineering, AI, deep learning, and full-stack application development.
                 </p>
               </div>
             </div>
@@ -539,10 +539,11 @@ export default function PremiumPortfolio() {
               <div className="border-l border-black/20 pl-6 relative group cursor-default hover:border-black transition-colors duration-500">
                 <div className="absolute w-2 h-2 bg-[#121212] rounded-full -left-[4.5px] top-1.5 group-hover:scale-150 transition-transform duration-500" />
                 <h3 className="text-xl md:text-2xl font-cormorant font-semibold text-[#121212]">BS in Computer Science</h3>
-                <p className="text-[10px] uppercase tracking-widest text-black/50 mt-1 mb-4">Bahria University Lahore • 2022 – 2026</p>
+                <p className="text-[10px] uppercase tracking-widest text-black/50 mt-1 mb-4">Bahria University Lahore • Sep 2022 – Present</p>
                 <p className="text-sm text-[#121212]/80 leading-relaxed font-light">
-                  Specialized in software engineering, artificial intelligence, and web development. Final Year Project focused on full-stack Cross platform Mobile Application and Web based Admin Dashboard, Specifically Designed for <b>Oasis School for Autism</b>. <br /><br />
-                  <span className="font-medium text-[#121212]">CGPA: 3.3 / 4.0</span>
+                  Specialized in software engineering, AI, deep learning, and web application design. Final year project focuses on an AI-based HAR system with sensor-driven data analysis and real-time prediction.
+                  <br /><br />
+                  <span className="font-medium text-[#121212]">CGPA: 3.1 / 4.0</span>
                 </p>
               </div>
             </div>
@@ -558,44 +559,48 @@ export default function PremiumPortfolio() {
               <div>
                 <h3 className="text-[10px] md:text-xs uppercase tracking-widest font-semibold mb-4 md:mb-6 text-black">Languages</h3>
                 <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-black/70 font-light">
-                  <li><b>Python</b></li>
+                  <li><b>C</b></li>
                   <li><b>C++</b></li>
-                  <li><b>Dart</b></li>
+                  <li><b>Python</b></li>
+                  <li><b>JavaScript</b></li>
+                  <li><b>TypeScript</b></li>
                   <li><b>SQL</b></li>
-                  <li><b>HTML / CSS</b></li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-[10px] md:text-xs uppercase tracking-widest font-semibold mb-4 md:mb-6 text-black">Frontend & Mobile</h3>
+                <h3 className="text-[10px] md:text-xs uppercase tracking-widest font-semibold mb-4 md:mb-6 text-black">System & Design</h3>
                 <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-black/70 font-light">
-                  <li><b>Flutter</b></li>
-                  <li><b>React / Next.js</b></li>
-                  <li><b>Vite</b></li>
-                  <li><b>Tailwind CSS</b></li>
-                  <li><b>Framer Motion</b></li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-[10px] md:text-xs uppercase tracking-widest font-semibold mb-4 md:mb-6 text-black">Backend & Cloud</h3>
-                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-black/70 font-light">
+                  <li><b>Node.js</b></li>
                   <li><b>FastAPI</b></li>
-                  <li><b>Django / DRF</b></li>
-                  <li><b>PostgreSQL</b></li>
-                  <li><b>AWS</b></li>
-                  <li><b>Supabase</b></li>
-                  <li><b>Docker</b></li>
+                  <li><b>WebSocket</b></li>
+                  <li><b>REST API</b></li>
+                  <li><b>React</b></li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="text-[10px] md:text-xs uppercase tracking-widest font-semibold mb-4 md:mb-6 text-black">Machine Learning</h3>
+                <h3 className="text-[10px] md:text-xs uppercase tracking-widest font-semibold mb-4 md:mb-6 text-black">DevOps & Infra</h3>
                 <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-black/70 font-light">
-                  <li><b>TensorFlow / Keras</b></li>
-                  <li><b>OpenCV</b></li>
-                  <li><b>NumPy / Pandas</b></li>
-                  <li><b>CNN Architectures</b></li>
+                  <li><b>Linux</b></li>
+                  <li><b>Bash Scripting</b></li>
+                  <li><b>SSH</b></li>
+                  <li><b>Docker</b></li>
+                  <li><b>Git</b></li>
+                  <li><b>GitHub</b></li>
+                  <li><b>GitLab</b></li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-[10px] md:text-xs uppercase tracking-widest font-semibold mb-4 md:mb-6 text-black">Database & AI</h3>
+                <ul className="space-y-2 md:space-y-3 text-xs md:text-sm text-black/70 font-light">
+                  <li><b>MongoDB</b></li>
+                  <li><b>PostgreSQL</b></li>
+                  <li><b>SQLite</b></li>
+                  <li><b>Vercel</b></li>
+                  <li><b>Firebase</b></li>
+                  <li><b>Deep Learning</b></li>
                 </ul>
               </div>
             </div>
@@ -605,85 +610,33 @@ export default function PremiumPortfolio() {
         {/* 6. Complete Project Showcase Wrapper */}
         <div id="projects" className="relative w-full bg-[#F4F0EA] border-b border-black/10">
 
-          {/* SINGLE Centered Sticky Title */}
-          <div className={`sticky top-0 h-screen w-full pointer-events-none flex flex-col justify-center items-center p-6 mix-blend-difference text-white transition-all duration-300 ${activeProjectTitle === "industry" ? "z-40" : "z-0"}`}>
+          <div className={`sticky top-0 h-screen w-full pointer-events-none flex flex-col justify-center items-center p-6 mix-blend-difference text-white transition-all duration-300 z-40`}>
             <div className="relative w-full h-full flex items-center justify-center">
               <AnimatePresence>
-                {activeProjectTitle === "industry" && (
-                  <div key="industry" className="absolute flex flex-col items-center">
-                    <div className="overflow-hidden mb-4 md:mb-6">
-                      <motion.h2
-                        initial={{ y: "100%" }}
-                        animate={{ y: "0%" }}
-                        exit={{ y: "-100%" }}
-                        transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1] }}
-                        className="text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-white/60"
-                      >
+                <div key="archive" className="absolute flex flex-col items-center">
+                  <div className="overflow-hidden mb-4 md:mb-6">
+                    <motion.h2
+                      initial={{ y: "100%" }}
+                      animate={{ y: "0%" }}
+                      exit={{ y: "-100%" }}
+                      transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1] }}
+                      className="text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-white/60"
+                    >
 
-                      </motion.h2>
-                    </div>
-                    <div className="overflow-hidden">
-                      <motion.div
-                        initial={{ y: "100%" }}
-                        animate={{ y: "0%" }}
-                        exit={{ y: "-100%" }}
-                        transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1], delay: 0.05 }}
-                        className="font-cormorant text-4xl md:text-[6.5vw] font-bold tracking-tighter uppercase leading-none text-center"
-                      >
-                        Industrial
-                      </motion.div>
-                    </div>
-                    <div className="overflow-hidden">
-                      <motion.div
-                        initial={{ y: "100%" }}
-                        animate={{ y: "0%" }}
-                        exit={{ y: "-100%" }}
-                        transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1], delay: 0.1 }}
-                        className="font-cormorant text-4xl md:text-[6.5vw] font-bold tracking-tighter uppercase leading-none text-center"
-                      >
-                        Projects.
-                      </motion.div>
-                    </div>
+                    </motion.h2>
                   </div>
-                )}
-
-                {activeProjectTitle === "archive" && (
-                  <div key="archive" className="absolute flex flex-col items-center">
-                    <div className="overflow-hidden mb-4 md:mb-6">
-                      <motion.h2
-                        initial={{ y: "100%" }}
-                        animate={{ y: "0%" }}
-                        exit={{ y: "-100%" }}
-                        transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1] }}
-                        className="text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-white/60"
-                      >
-
-                      </motion.h2>
-                    </div>
-                    <div className="overflow-hidden">
-                      <motion.div
-                        initial={{ y: "100%" }}
-                        animate={{ y: "0%" }}
-                        exit={{ y: "-100%" }}
-                        transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1], delay: 0.05 }}
-                        className="font-cormorant text-4xl md:text-[6.5vw] font-bold tracking-tighter uppercase leading-none text-center"
-                      >
-                        Archived
-                      </motion.div>
-                    </div>
-                    <div className="overflow-hidden">
-                      <motion.div
-                        initial={{ y: "100%" }}
-                        animate={{ y: "0%" }}
-                        exit={{ y: "-100%" }}
-                        transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1], delay: 0.1 }}
-                        className="font-cormorant text-4xl md:text-[6.5vw] font-bold tracking-tighter uppercase leading-none text-center"
-                      >
-                        Projects.
-                      </motion.div>
-                    </div>
+                  <div className="overflow-hidden">
+                    <motion.div
+                      initial={{ y: "100%" }}
+                      animate={{ y: "0%" }}
+                      exit={{ y: "-100%" }}
+                      transition={{ duration: 0.6, ease: [0.85, 0, 0.15, 1], delay: 0.05 }}
+                      className="font-cormorant text-4xl md:text-[6.5vw] font-bold tracking-tighter uppercase leading-none text-center"
+                    >
+                      Projects.
+                    </motion.div>
                   </div>
-                )}
+                </div>
               </AnimatePresence>
             </div>
           </div>
@@ -692,56 +645,12 @@ export default function PremiumPortfolio() {
           <div className="relative z-20 w-full -mt-[100vh] pt-[60vh] md:pt-[70vh] pb-[20vh]">
 
             {/* =========================================
-                PART A: INDUSTRY CARDS
-            ========================================= */}
-            <motion.div
-              onViewportEnter={() => setActiveProjectTitle("industry")}
-              viewport={{ margin: "-30% 0px -30% 0px" }}
-              className="flex flex-col gap-12 sm:gap-16 md:gap-40 px-4 sm:px-6 md:px-12 max-w-7xl mx-auto"
-            >
-              <div id="project-oasis" className="relative w-full md:w-[50vw] mx-auto md:mx-0 md:mr-auto md:ml-12 bg-[#161616] p-5 sm:p-6 md:p-12 shadow-[0_30px_60px_rgba(0,0,0,0.4)] group transition-transform hover:-translate-y-2 duration-500 rounded-sm min-w-0">
-                <ProjectCardHeader number="01" title={projects.oasis.title} image="/oasis_logo.png" tech="React • Flutter • FastAPI • Supabase" dark />
-                <div className="w-8 h-[1px] bg-[#F4F0EA]/30 mb-5 md:mb-6" />
-                <p className="text-sm md:text-base text-[#F4F0EA]/80 font-light leading-relaxed">A specialized school management platform featuring a comprehensive web-based admin dashboard, secure role-based login, automated AI report summarization, and a digitized diary system accessible via a cross-platform mobile application.</p>
-                <ProjectActions project={projects.oasis} onCaseStudy={() => setActiveStudy("oasis")} dark />
-              </div>
-
-              <div id="project-pkpl" className="relative w-full md:w-[50vw] mx-auto md:mx-0 md:ml-auto md:mr-12 bg-[#1A1A1A] p-5 sm:p-6 md:p-12 shadow-[0_30px_60px_rgba(0,0,0,0.4)] group transition-transform hover:-translate-y-2 duration-500 rounded-sm min-w-0">
-                <ProjectCardHeader number="02" title={projects.pkpl.title} image="/primekingdom-logo.png" tech="React • FastAPI • Supabase" dark />
-                <div className="w-8 h-[1px] bg-[#F4F0EA]/30 mb-5 md:mb-6" />
-                <p className="text-sm md:text-base text-[#F4F0EA]/80 font-light leading-relaxed">An enterprise-grade management portal designed to streamline administrative workflows with role-based authentication, centralized data management, and employee attendance tracking.</p>
-                <ProjectActions project={projects.pkpl} onCaseStudy={() => setActiveStudy("pkpl")} dark />
-              </div>
-
-              <div id="project-tenant" className="relative w-full md:w-[50vw] mx-auto md:mx-0 md:mr-auto md:ml-12 bg-[#161616] p-5 sm:p-6 md:p-12 shadow-[0_30px_60px_rgba(0,0,0,0.4)] group transition-transform hover:-translate-y-2 duration-500 rounded-sm min-w-0">
-                <ProjectCardHeader number="03" title={projects.tenant.title} image="/tenant-logo.png" tech="React • Vite • Tailwind • Framer" dark />
-                <div className="w-8 h-[1px] bg-[#F4F0EA]/30 mb-5 md:mb-6" />
-                <p className="text-sm md:text-base text-[#F4F0EA]/80 font-light leading-relaxed">A responsive single-page application built to deliver fluid UI/UX, accessible information discovery, smooth scrolling, and polished interaction design.</p>
-                <ProjectActions project={projects.tenant} onCaseStudy={() => setActiveStudy("tenant")} dark />
-              </div>
-
-              <div id="project-assessment" className="relative w-full md:w-[50vw] mx-auto md:mx-0 md:ml-auto md:mr-12 bg-[#1A1A1A] p-5 sm:p-6 md:p-12 shadow-[0_30px_60px_rgba(0,0,0,0.4)] group transition-transform hover:-translate-y-2 duration-500 rounded-sm min-w-0">
-                <ProjectCardHeader number="04" title={projects.assessment.title} image="/primekingdom-logo.png" tech="React • FastAPI • Supabase" dark />
-                <div className="w-8 h-[1px] bg-[#F4F0EA]/30 mb-5 md:mb-6" />
-                <p className="text-sm md:text-base text-[#F4F0EA]/80 font-light leading-relaxed">A comprehensive evaluation platform featuring candidate assessments, question management, result processing, and administrative workflows powered by a robust Python backend.</p>
-                <ProjectActions project={projects.assessment} onCaseStudy={() => setActiveStudy("assessment")} dark />
-              </div>
-
-              <div id="project-housing" className="relative w-full md:w-[50vw] mx-auto md:mx-0 md:mr-auto md:ml-12 bg-[#161616] p-5 sm:p-6 md:p-12 shadow-[0_30px_60px_rgba(0,0,0,0.4)] group transition-transform hover:-translate-y-2 duration-500 rounded-sm min-w-0">
-                <ProjectCardHeader number="05" title={projects.housing.title} image="/logo.avif" tech="Next.js • React • Tailwind • FastAPI • Supabase" dark />
-                <div className="w-8 h-[1px] bg-[#F4F0EA]/30 mb-5 md:mb-6" />
-                <p className="text-sm md:text-base text-[#F4F0EA]/80 font-light leading-relaxed">A streamlined digital platform designed for the housing sector, enabling users to access support networks and submit claims through a polished, responsive, and accessible experience.</p>
-                <ProjectActions project={projects.housing} onCaseStudy={() => setActiveStudy("housing")} dark />
-              </div>
-            </motion.div>
-
-            {/* =========================================
-                PART B: ARCHIVE CARDS (Scroll Trigger)
+                PART A: ARCHIVE CARDS
             ========================================= */}
             <motion.div
               onViewportEnter={() => setActiveProjectTitle("archive")}
               viewport={{ margin: "-30% 0px -30% 0px" }}
-              className="mt-40 md:mt-60 pt-20"
+              className="mt-0 pt-0"
             >
               <div className="flex flex-col gap-12 md:gap-24 px-4 sm:px-6 md:px-12 max-w-6xl mx-auto">
                 {archiveProjects.map((projectKey, index) => {
@@ -835,28 +744,28 @@ export default function PremiumPortfolio() {
         <div className="flex flex-col md:flex-row justify-between items-start w-full px-6 md:px-12 z-10 gap-8 md:gap-0">
           <div className="max-w-md">
             <h2 className="font-cormorant text-2xl md:text-5xl leading-[1.1] md:leading-[0.9] font-light mb-3 md:mb-4 text-[#F4F0EA]">Let's create <br /><span className="italic text-[#F4F0EA]/70">something exceptional.</span></h2>
-            <a href="mailto:mwajahath81@gmail.com" className="inline-block uppercase tracking-widest text-[10px] md:text-xs font-semibold border-b border-[#F4F0EA]/50 pb-1 hover:text-white hover:border-white transition-colors">
-              mwajahath81@gmail.com
+            <a href="mailto:zainulabedin0026@gmail.com" className="inline-block uppercase tracking-widest text-[10px] md:text-xs font-semibold border-b border-[#F4F0EA]/50 pb-1 hover:text-white hover:border-white transition-colors">
+              zainulabedin0026@gmail.com
             </a>
           </div>
 
           <div className="flex gap-12 md:gap-16 text-[9px] md:text-[10px] uppercase tracking-widest font-medium">
             <div className="flex flex-col gap-2 md:gap-3">
               <span className="text-white/40 mb-1">Connect</span>
-              <a href="https://www.linkedin.com/in/mwajahathaider" target="_blank" rel="noopener noreferrer" className="link-underline hover:text-white/80 transition-colors w-fit">LinkedIn</a>
-              <a href="https://github.com/wajahat81" target="_blank" rel="noopener noreferrer" className="link-underline hover:text-white/80 transition-colors w-fit">GitHub</a>
+              <a href="https://www.linkedin.com/in/zainali0o" target="_blank" rel="noopener noreferrer" className="link-underline hover:text-white/80 transition-colors w-fit">LinkedIn</a>
+              <a href="https://github.com/zain-ul-abedin-123" target="_blank" rel="noopener noreferrer" className="link-underline hover:text-white/80 transition-colors w-fit">GitHub</a>
             </div>
             <div className="flex flex-col gap-2 md:gap-3">
-              <span className="text-white/40 mb-1">Legal</span>
-              <a href="#" className="link-underline hover:text-white/80 transition-colors w-fit">Privacy Policy</a>
-              <a href="#" className="link-underline hover:text-white/80 transition-colors w-fit">Terms of Service</a>
+              <span className="text-white/40 mb-1">Contact</span>
+              <a href="mailto:zainulabedin0026@gmail.com" className="link-underline hover:text-white/80 transition-colors w-fit">Email</a>
+              <a href="tel:+923367456500" className="link-underline hover:text-white/80 transition-colors w-fit">Phone</a>
             </div>
           </div>
         </div>
 
         {/* Marquee Footer */}
         <div className="w-full relative mt-auto pt-4 border-t border-[#F4F0EA]/10">
-          <a href="mailto:mwajahath81@gmail.com" className="block w-full overflow-hidden hover:opacity-70 transition-opacity">
+          <a href="mailto:zainulabedin0026@gmail.com" className="block w-full overflow-hidden hover:opacity-70 transition-opacity">
             <motion.div
               className="flex whitespace-nowrap text-[18vw] md:text-[13vw] font-bold tracking-tighter leading-none uppercase text-[#F4F0EA]"
               animate={{ x: [0, -1500] }}
