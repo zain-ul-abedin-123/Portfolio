@@ -7,9 +7,11 @@ import { Analytics } from "@vercel/analytics/next"
 
 // --- PROJECT DATA & LINK CONFIGURATION ---
 type ProjectKey =
+  | "oasis"
+  | "pkpl"
   | "tenant"
   | "assessment"
-  | "housing" 
+  | "housing"
   | "agriscan"
   | "traffic"
   | "shopping"
